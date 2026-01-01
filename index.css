@@ -1,0 +1,240 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    background-color: rgb(0, 106, 255);
+    color: white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#name {
+    display: inline;
+    margin-left: 5rem;
+}
+
+#firstlink {
+    margin-left: 19rem;
+}
+
+a {
+    color: white;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-decoration: none;
+    transition: all;
+    transition-duration: 0.5s;
+}
+
+a:hover {
+    color: rgba(255, 255, 255, 0.522);
+    transition: all;
+    transition-duration: 0.5s;
+}
+
+img {
+    height: 250px;
+}
+
+#thought {
+    padding: 50px;
+    text-align: center;
+}
+
+h1 {
+    display: inline;
+}
+
+#main1center {
+    border-radius: 10px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    color: rgba(0, 0, 0, 0.701);
+    padding: 2rem;
+    height: max-content;
+    background-color: rgba(0, 92, 222, 0.295);
+}
+
+#main2 {
+    padding: 2rem;
+    background-color: rgba(93, 93, 93, 0.111);
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+span {
+    display: inline-block;
+    background-color: white;
+    height: max-content;
+    width: 300px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+button {
+    border: 1px solid rgb(0, 106, 255);
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+    transition: all;
+    transition-duration: 0.5s;
+}
+
+button:hover {
+    color: white;
+    background-color: rgb(0, 106, 255);
+    transition: all;
+    transition-duration: 0.5s;
+}
+
+.symboles {
+    height: 80px;
+}
+
+footer {
+    background-color: rgb(0, 48, 116);
+    color: white;
+}
+
+/* Media Queries for responsiveness */
+
+/* Mobile devices (width <= 600px) */
+@media screen and (max-width: 600px) {
+    * {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        max-width: 600px;
+    
+    }
+    body{
+        margin: 0%;
+        padding: 0%;
+    }
+    header {
+        background-color: rgb(0, 106, 255);
+        color: white;
+        /* padding-top: 1rem;
+        padding-bottom: 1rem; */
+    }
+    
+    #name {
+        display: block;
+        margin-left: 1rem;
+        
+        
+    }
+    
+    #firstlink {
+        margin-left: 1.5rem;
+    }
+    
+    a {
+        
+        text-align: center;
+        display: block;
+        color: white;
+        text-decoration: none;
+        transition: all;
+        transition-duration: 0.5s;
+    }
+    
+    a:hover {
+        color: rgba(255, 255, 255, 0.522);
+        transition: all;
+        transition-duration: 0.5s;
+    }
+    main{
+        background-color: gray;
+    }
+    button{
+        width:50%;
+        display: block;
+    
+    }
+    #main2{
+        padding: 0%;
+    }
+    
+    }
+
+/* Tablets (width > 600px and <= 900px) */
+@media screen and (max-width: 900px) {
+    #name {
+        margin-left: 2rem;
+    }
+
+    #firstlink {
+        margin-left: 5rem;
+    }
+
+    img {
+        height: 220px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    #main1center {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        padding: 1.5rem;
+    }
+
+    #main2 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        padding: 1.5rem;
+    }
+
+    span {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    footer {
+        padding: 1rem;
+    }
+}
+
+/* Desktop (width > 900px) */
+@media screen and (min-width: 901px) {
+    #name {
+        margin-left: 5rem;
+    }
+
+    #firstlink {
+        margin-left: 19rem;
+    }
+
+    img {
+        height: 250px;
+    }
+
+    #main1center {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        padding: 2rem;
+    }
+
+    #main2 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        padding: 2rem;
+    }
+
+    span {
+        width: 300px;
+    }
+
+    button {
+        width: auto;
+    }
+
+    footer {
+        padding: 2rem;
+    }
+}
